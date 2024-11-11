@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+  
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+#g{
+/* background-color: red; */
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: block;
+justify-content: center;
+margin: 20px;
+width: 700px;
+text-align: center;
+
+}
+#hah{
+    display: flex;
+}
+ql{
+    border: 1px solid #000;
+    background-color:  rgb(32, 32, 32);
+    color: #FFF;
+    border-radius: 5px;
+
+}
+
+.game-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+#bio{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+img{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.game {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width:400px;
+    height: 450px;
+}
+/* .game:hover{
+    width:400px;
+    z-index: 40px;
+    height: 700px;  
+} */
+
+.game img {
+    max-width: 200px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
